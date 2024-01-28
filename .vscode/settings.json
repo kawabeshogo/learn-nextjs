@@ -25,7 +25,7 @@
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.codeActionsOnSave": {
-      "source.organizeImports": "explicit"
+      "source.organizeImports": true,
     }
   },
   "[shellscript]": {
@@ -104,20 +104,6 @@
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   // "editor.guides.bracketPairsHorizontal": true,
   "cSpell.words": [
-    "chakra",
-    "colspan",
-    "fastapi",
-    "furukawa",
-    "hookform",
-    "jexcel",
-    "jspreadsheet",
-    "ondelete",
-    "psycopg2",
-    "pydantic",
-    "react-datepicker",
-    "sessionmaker",
-    "sqlalchemy",
-    "venv",
     "esbenp"
   ],
   "[terraform][terraform-vars]": {
