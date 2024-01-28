@@ -1,0 +1,51 @@
+{
+  "recommendations": [
+    // vscodeを日本語版のUIにする
+    "ms-ceintl.vscode-language-pack-ja", // *
+    // git
+    "github.vscode-github-actions",
+    "github.vscode-pull-request-github",
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    // [python]
+    "ms-toolsai.jupyter",
+    "ms-toolsai.vscode-jupyter-cell-tags",
+    "ms-toolsai.jupyter-renderers",
+    "ms-toolsai.vscode-jupyter-slideshow",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    // docstringを自動生成できる
+    "njpwerner.autodocstring",
+    // Formatter
+    "ms-python.black-formatter",
+    "ms-python.isort",
+    // Linter
+    "ms-python.flake8",
+    "ms-python.mypy-type-checker",
+    // [typescript]
+    // Formatter
+    "esbenp.prettier-vscode",
+    // Linter
+    "dbaeumer.vscode-eslint",
+    //[html]
+    "formulahendry.auto-rename-tag", // *
+    "foxundermoon.shell-format",
+    // [yaml]
+    "redhat.vscode-yaml",
+    // [markdown]
+    "yzhang.markdown-all-in-one",
+    // [terraform]
+    "hashicorp.terraform",
+    // [csv]
+    "mechatroner.rainbow-csv",
+    "janisdd.vscode-edit-csv",
+    // tomlファイルに変換できる
+    "be5invis.toml",
+    // spellchecker
+    "streetsidesoftware.code-spell-checker",
+    // codingFormat
+    "editorconfig.editorconfig",
+    // docker
+    "ms-azuretools.vscode-docker"
+  ]
+}

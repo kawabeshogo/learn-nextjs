@@ -1,0 +1,128 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // 以下のpathは個別に設定する
+  "prettier.configPath": "./.prettierrc.yml",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format",
+    "editor.formatOnSave": true
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "be5invis.toml",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.formatOnSave": true
+  },
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.formatAll.terraform": true
+    }
+  },
+  "[terraform-vars]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.formatAll.terraform": true
+    }
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": true
+  // },
+  "flake8.args": ["--max-line-length=88", "--ignore=E203,W503,W504"],
+  "isort.args": ["--profile", "black"],
+  "mypy-type-checker.args": ["--ignore-missing-imports", "--disallow-untyped-defs"],
+
+  // "eslint.options": {
+  //   // 以下のpathは個別に設定する
+  //   "configFile": "/home/skawabe/aidemy-dap-phase2_sample/aidemy-dap-app/front/.eslintrc.yml"
+  // },
+  // "eslint.format.enable": true,
+  // "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  // "eslint.workingDirectories": ["front"],
+
+  // true は、Python の補完時に自動的にインポート文を追加する
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.diagnosticMode": "workspace",
+  "python.languageServer": "Pylance",
+  "python.testing.pytestEnabled": true,
+  "shellformat.useEditorConfig": true,
+  "yaml.format.printWidth": 119,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.referencesCodeLens.enabled": true,
+  "markdown.extension.toc.updateOnSave": true,
+  "markdown.extension.toc.slugifyMode": "vscode",
+  "markdown.extension.toc.levels": "2..3",
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  // "editor.guides.bracketPairsHorizontal": true,
+  "cSpell.words": [
+    "chakra",
+    "colspan",
+    "fastapi",
+    "furukawa",
+    "hookform",
+    "jexcel",
+    "jspreadsheet",
+    "ondelete",
+    "psycopg2",
+    "pydantic",
+    "react-datepicker",
+    "sessionmaker",
+    "sqlalchemy",
+    "venv",
+    "esbenp"
+  ],
+  "[terraform][terraform-vars]": {
+    "editor.codeActionsOnSave": {
+      "source.formatAll.terraform": "explicit"
+    }
+  }
+}
